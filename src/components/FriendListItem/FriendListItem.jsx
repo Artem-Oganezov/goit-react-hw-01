@@ -1,11 +1,11 @@
-
+import s from './FriendListItem.module.css'
 
 const FriendListItem = ({friend}) => {
   return (
-    <div>
+    <div className={s.friend_box}>
        <img src={friend.avatar} alt="Avatar" width="48" />
           <p>{friend.name}</p>
-          {friend.isOnline?<p>Online</p>:<p>Offline</p>}  
+          {friend.isOnline?<p className={s.friend_on}>Online</p>:<p className={s.friend_of}>Offline</p>}  
     </div>
   )
 }

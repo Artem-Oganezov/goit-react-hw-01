@@ -1,0 +1,28 @@
+.history_table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  border-collapse: collapse;
+}
+
+.history_head {
+  background-color: black;
+  color: white;
+}
+
+.history_name {
+  border: 1px solid black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.history_data {text-transform: capitalize;
+  text-align: center;
+  border: 1px solid black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.history_list:nth-child(even) {
+  background-color: rgb(114, 114, 114);
+}
